@@ -1,6 +1,7 @@
 html {
   background-color: #d7e8ba;
   font-family: "Indie Flower", cursive;
+  animation: 1s ease-in movein;
 }
 
 h1 {
@@ -8,6 +9,15 @@ h1 {
   font-size: 60px;
 }
 
+@-webkit-keyframes movein {
+  from {
+    margin-left: -50%;
+    margin-top: 1s0%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
 .recipies-gif {
   display: flex;
   justify-content: center;

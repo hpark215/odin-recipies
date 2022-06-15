@@ -1,0 +1,44 @@
+html {
+  background-color: #d7e8ba;
+  font-family: "Indie Flower", cursive;
+  animation: movein 2s;
+}
+
+@-webkit-keyframes movein {
+  from {
+    margin-left: -50%;
+    margin-top: 1s0%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 5rem;
+  height: 2rem;
+  background-color: orange;
+}
+
+button a {
+  color: #000;
+  text-decoration: none;
+}
+
+header h1 {
+  letter-spacing: 1rem;
+}
+
+.bibimbap-img {
+  display: flex;
+  justify-content: center;
+}
+
+.bibimbap-img img {
+  width: 30rem;
+}
